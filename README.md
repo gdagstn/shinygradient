@@ -15,6 +15,8 @@ You need to have `shiny` installed. It can be found on CRAN:
 install.packages("shiny")
 ```
 
+Or you can go to the online deployment [here](https://gdagstn.shinyapps.io/shinygradient/).
+
 ## Usage
 
 Clone this repository and open the `app.R` file in RStudio, then run the app. 
