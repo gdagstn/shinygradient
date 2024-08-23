@@ -24,9 +24,9 @@ Clone this repository and open the `app.R` file in RStudio, then run the app.
 You can use the slides for the 4 parameters that control the RGB curves. Each color channel can be controlled independently.
 
 - A: controls the brightness/luminance of the R, G, B curves (how tall does the whole cosine wave sit?)
-- B: controls the contrast of the R, G, B (how quickly does the wave change?)
-- C: controls how much R, G, B change across the color vector
-- D: controls where the maxima for each channel are.
+- B: controls the contrast of the R, G, B (how quickly does the wave change? also known as amplitude)
+- C: controls how much R, G, B change across the color vector (also known as period)
+- D: controls where the maxima for each channel are (also known as delay)
 
 You can also choose the number of colors. The color vector is printed at the end of the page. 
 
