@@ -15,18 +15,24 @@ You need to have `shiny` installed. It can be found on CRAN:
 install.packages("shiny")
 ```
 
-Or you can go to the online deployment [here](https://gdagstn.shinyapps.io/shinygradient/).
+Or you can go to the online deployment for the [three slider version](https://gdagstn.shinyapps.io/shinygradient/) and the [XY pad version](https://gdagstn.shinyapps.io/xypad/).
 
 ## Usage
 
-Clone this repository and open the `app.R` file in RStudio, then run the app. 
+Clone this repository and choose one of the two versions from each of the two folders:
+- `three_sliders` is the first version with separate sliders for each value.
+- `xypad` uses the `XYpad` input method from the `XYpad` R [package](https://cran.r-project.org/web/packages/shinyXYpad/) by Stéphane Laurent 
 
-You can use the slides for the 4 parameters that control the RGB curves. Each color channel can be controlled independently.
+Within each folder you can open the `app.R` file in RStudio, then run the app. 
+
+There you can use the slides for the 4 parameters that control the RGB curves. Each color channel can be controlled independently.
 
 - A: controls the brightness/luminance of the R, G, B curves (how tall does the whole cosine wave sit?)
 - B: controls the contrast of the R, G, B (how quickly does the wave change? also known as amplitude)
 - C: controls how much R, G, B change across the color vector (also known as period)
 - D: controls where the maxima for each channel are (also known as delay)
+
+The `xypad` app has a button to randomize values. 
 
 You can also choose the number of colors. The color vector is printed at the end of the page. 
 
